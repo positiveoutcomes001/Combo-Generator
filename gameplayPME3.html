@@ -6,108 +6,53 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="text/javascript" src="comboGenerator.js"></script>
 <style>
-* {
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif 
-}
-.gameTitle{
-    background-color:rgb(23, 230, 78) ;
-    overflow: hidden;
-    color:white;
-    text-align: center;
-    font-size: 50px;
-    
-    
-}
+    body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:  rgb(23, 230, 78);
+        }
 
+        header {
+            background-color:  rgb(23, 230, 78);
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            font-size: 20px;
+        }
 
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  overflow: hidden;
-  background-color:  rgb(23, 230, 78);
-  text-align: center;
-  
-}
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            
+        }
 
+        .content {
+            background-color:   rgb(244, 149, 55);
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+           
+            
+        }
 
-
-/* Style the content */
-.content {
-  background-color: rgb(244, 149, 55);
-  margin-left: 75px;
-  margin-right: 75px;
-  height: 610px; 
-
-   
-  
+.continue{
+    color:white
 }
 
 
-.comboButton{ 
-    color:white;
-    font-size: 35px;
-    background-color:rgb(234, 101, 78); 
-    border-radius: 25px;
-    padding: 10px;
-    width: fit-content;
-margin-top: 25px;
-text-align: center;
-    margin-bottom: 10px;
-}
-
-.move{ 
-    color:white;
-    font-size: 20px;
-    background-color:rgb(241, 83, 226); 
-    border-radius: 25px;
-    padding: 10px;
-    margin-right: 400px;
-    margin-left: 400px;
-    text-align: center;
-   
+.continue:hover{
+    color:red;  
 }
 
 
-
-
-.endGame{ 
-    color:white;
-    font-size: 50px;
-    background-color: rgb(234, 101, 78); 
-    border-radius: 25px;
-    padding: 10px;
-    margin-right: 220px;
-    margin-left: 220px;
-    text-align: center;
-   
-}
-
-.endGame:hover{
-    color:red;
-    
-}
-
-
-/* Style the footer */
-.footer {
-    
-  background-color:  rgb(23, 230, 78);
-    overflow: hidden;
-    color:white;
-  padding: 10px;
-  
-}
-
-/* Media query for smaller screens, adjust the breakpoint as needed */
-@media screen and (max-width: 768px) {
-    .screensize {
-        /* Add styles for smaller screens */
-        font-size: 3.8em;
-        max-width: 80%;
-        max-height: 80%;
-    }
-}
+        footer {
+            background-color:  rgb(23, 230, 78);
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
 
 </style>
 </head>

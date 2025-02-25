@@ -355,7 +355,7 @@ function PMI1(){
                         var PMI = [airFlare, ninety, twoThousand, halo, backSpin, ufo, virginFlare, handcuffs, bellymill, airChairSpin, jackHammer, elbowTrack, elbowSpin, headglide, shoulderFreeze, handHop, tombstone]
                        
                         var ImoveSix = Math.floor(Math.random()* PMI.length);
-                            var ImoveSixA= PME.splice(ImoveSix,1)
+                            var ImoveSixA= PMI.splice(ImoveSix,1)
                             
                         sessionStorage.setItem("ImoveSixA", ImoveSixA);
                         

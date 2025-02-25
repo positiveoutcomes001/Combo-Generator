@@ -331,7 +331,7 @@ function PMI1(){
                 var PMI = [airFlare, ninety, twoThousand, halo, backSpin, ufo, virginFlare, handcuffs, bellymill, airChairSpin, jackHammer, elbowTrack, elbowSpin, headglide, shoulderFreeze, handHop, tombstone]
                
                 var ImoveFour = Math.floor(Math.random()* PMI.length);
-                    var ImoveFourA= PMI.splice(ImoveFour,1)
+                    var ImoveFourA = PMI.splice(ImoveFour,1)
                     
                 sessionStorage.setItem("ImoveFourA", ImoveFourA);
                 
@@ -342,7 +342,7 @@ function PMI1(){
 
                     var PMI = [airFlare, ninety, twoThousand, halo, backSpin, ufo, virginFlare, handcuffs, bellymill, airChairSpin, jackHammer, elbowTrack, elbowSpin, headglide, shoulderFreeze, handHop, tombstone]
                     var ImoveFive = Math.floor(Math.random()* PMI.length);
-                        var ImoveFiveA= PMI.splice(ImoveFive,1)
+                        var ImoveFiveA = PMI.splice(ImoveFive,1)
                         
                     sessionStorage.setItem("ImoveFiveA", ImoveFiveA);
                     
@@ -355,7 +355,7 @@ function PMI1(){
                         var PMI = [airFlare, ninety, twoThousand, halo, backSpin, ufo, virginFlare, handcuffs, bellymill, airChairSpin, jackHammer, elbowTrack, elbowSpin, headglide, shoulderFreeze, handHop, tombstone]
                        
                         var ImoveSix = Math.floor(Math.random()* PMI.length);
-                            var ImoveSixA= PMI.splice(ImoveSix,1)
+                            var ImoveSixA = PMI.splice(ImoveSix,1)
                             
                         sessionStorage.setItem("ImoveSixA", ImoveSixA);
                         
